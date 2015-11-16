@@ -21,7 +21,6 @@ function initialize() {
     infowindow = new google.maps.InfoWindow({
                             content: ""
                         });
-
     google.maps.event.addListener(marker, 'click', function() {
         infowindow.setContent("Purdue University");
         infowindow.open(map, marker);
@@ -29,3 +28,4 @@ function initialize() {
     xmlhttp = new XMLHttpRequest();
     
 }
+google.maps.event.addDomListener(window, 'load', initialize);
