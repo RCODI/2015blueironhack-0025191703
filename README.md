@@ -1,30 +1,28 @@
 # 2015blueironhack-chilly812
 
-1. Name of the Application
+#### Name of the Application
 
-EasyRent
+* EasyRent
 
-2. Keywords
+#### Keywords
 
-Renting, Safety, 
+* Renting, Safety, 
 
-3. Brief Description
+#### Brief Description
 
-Components: google map
+* Components: google map
 
+#### Test Case
 
-4. Test Case
+* Tested on Chrome and Firefox
 
-Tested on Chrome and Firefox
+#### Build Case
 
+* Run on linux: firefox index.html / chromium-browser index.htm
 
-5. Build Case
+#### Description of the Datasets Used
 
-Run on linux: firefox index.html / chromium-browser index.htm
-
-6. Description of the Datasets Used
-
-6.1 Weather data: http://w1.weather.gov/ (http://forecast.weather.gov/MapClick.php?CityName=Lafayette&state=IN&site=IND&lat=40.4109&lon=-86.8707#.VklL9mSrRhA)
+* Weather data: http://w1.weather.gov/ (http://forecast.weather.gov/MapClick.php?CityName=Lafayette&state=IN&site=IND&lat=40.4109&lon=-86.8707#.VklL9mSrRhA)
     Code: ./js/weather.js 
 
 
