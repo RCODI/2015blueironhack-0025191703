@@ -13,7 +13,7 @@ xmlhttp.onreadystatechange = function() {
         myArr = xmlhttp.responseText;
         text = myArr;
         json = JSON.parse(text); 
-        document.getElementById("weather").innerHTML = "Weather: " + json.query.results.body.main.div.div[3].div[1].div[0].p[0].content + "," + " temperature: " + json.query.results.body.main.div.div[3].div[1].div[0].p[1].content + '.';
+        document.getElementById("weather").innerHTML = "Weather: " + json.query.results.body.main.div.div[4].div[1].div[0].p[0].content + "," + " temperature: " + json.query.results.body.main.div.div[4].div[1].div[0].p[1].content + '.';
        
     }
 };
